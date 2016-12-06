@@ -1,0 +1,5 @@
+-What happens when you initialize a repository? Why do you need to do it?
+-A git repository is created. You need to initialize it so you can add to it.
+
+-How is the staging area different from the working directory and the repository? What value do you think it offers?
+-It is a place that you can place files before commiting them, it's good to be able to verify a submission like that.
