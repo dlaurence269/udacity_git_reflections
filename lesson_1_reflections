@@ -1,0 +1,20 @@
+-How did viewing a diff between two versions of a file help you see the bug that was introduced?
+-All of the unchanged lines were not included in the results so there was less to search through.
+
+-How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+-It's imprtant to know the process for getting to a finished code product. That way anyone can read through the process and understande how code ended up the way it did. Additionally if there's a change, or series of changes that was/were saved that needs to be reverted, version control is essential.
+
+-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+-The pros of manually commiting in Git are that the commits are always at logical/helpful save points, ehich means the history isn't unecessarily cluttered and each save is at a more intuitive point for making changes. The con is basically did the user remember to commit? That could be a problem since there may be nothing saved.
+
+-Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+-It makes sense that Git allows for multiple files saved per commit, that allows multiple files/file types that are being used for a project can all have there changes saved together. It is likely that not only additions will be made together, but also likely that bugs will be fixed together. Google Docs and the others like it have no need to have multiple save, as the documents are not interdependant. Additionally In order to have the auto-save it is most simple to do it for one document at a time.
+
+-How can you use the commands git log and git diff to view the history of files?
+-"git log" returns a log of all of the commits starting with a few most recent, including id number and commit comments. I needed to hit return or down arrow to continue pulling up older results either until I've gotten all the results or I found the one I want. "git diff old_id new_id" gives me the differences between the two commits. In a similar fashion only the first few results are posted, I need to hit return until the end of the list to get all results (I'm pretty sure that the order that you enter in the two ids for comparison doesn't matter, as in the results are the same, other than maybe reversing what shows as a plus and what shows as a minus?? In any case it is proper form to have "old_id" then "new_id").
+
+-How might using version control make you more confident to make changes that could break something?
+-With the confidence of being able to switch to a previous version there's no fear of risking breaking something, because I can always revert to a previous version that worked.
+
+-Now that you have your workspace set up, what do you want to try using Git for?
+-I'd like to start using Git for any coding projects I do, like the Full Stack Developer course I'd like to do next. I'm not sure if I'll use it outside the scope of code.
