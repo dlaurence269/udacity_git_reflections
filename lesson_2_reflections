@@ -3,3 +3,19 @@
 
 -How is the staging area different from the working directory and the repository? What value do you think it offers?
 -It is a place that you can place files before commiting them, it's good to be able to verify a submission like that.
+
+-How can you use the staging area to make sure you have one commit per logical change?
+-By checking git status to see what's in line to be commited.
+
+-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+-Adding branches is great for trying something experimental and new, that way the good code that was until now can be preserved and continued to be worked on via non-experimental methods.
+
+-How do the diagrams help you visualize the branch structure?
+-The diagrams are littereally a visualization of the branch structure, so they help enormously. It shows the logical layout.
+
+-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+-The result of merging to branches together is that one branch keeps its name and absorbs the commits of the second. That second branch name is then deleted and the first branch is the only one that exists and can be used to look up the commit log.
+
+-What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+-The benifit of merging manually is that there's never an accidental file merged, as in if each file is vetted, then only the relevant are added. The con is that can take forever, adn there is still human error about whether the code should be there or not. The great thing about automatic is it speeds everything up, and everything it's sure about it does right away. The con is sometimes it can't tell between which to lines of code or files it should choose when it might be obvious to a human. That's ok though because it still took care of the obvious ones, and this means that there are no accidental merges of bad lines, even if it's a bit of work to look over the two versions of files.
